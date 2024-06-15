@@ -1,0 +1,33 @@
+/*Write ‘C’ program to accept a single digit number and display it in
+words. For example, Input = 9 Output = Nine*/
+#include<stdio.h>
+int main()
+{
+	int n;
+	printf("Enter the number:");
+	scanf("%d",&n);
+	switch(n)
+	{
+		case 0:printf("Zero"); 
+		break;
+		case 1:printf("one");
+		 break;
+		case 2:printf("Two"); 
+		break;
+		case 3:printf("Three"); 
+		break;
+		case 4:printf("Four"); 
+		break;
+		case 5:printf("Five"); 
+		break;
+		case 6:printf("Six"); 
+		break;
+		case 7:printf("Saven"); 
+		break;
+		case 8:printf("Eight"); 
+		break;
+		case 9:printf("Nine"); 
+		break;
+		defult :printf("Invalid Input.................");		
+	}
+}
